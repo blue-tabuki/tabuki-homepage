@@ -333,6 +333,8 @@ section#contact p {
   color: whitesmoke;
   background: #00000075;
   border-radius: 10px;
+  -webkit-box-shadow: 0 0 5px;
+          box-shadow: 0 0 5px;
 }
 .form-wrapper h3 {
   text-align: center;
