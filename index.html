@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="icon" href="images/shirt.svg">
+   <title>Tabuki</title>
+
+   <!-- Google Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+
+   <!-- Font Awesome -->
+   <script src="https://kit.fontawesome.com/85ca2b2555.js" crossorigin="anonymous"></script>
+
+   <!-- CSS -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+   <header>
+      <a href="#top"><img class="logo" src="images/shirt.png"></a>
+      <ul>
+         <li>
+            <a href="#tbk">About me</a>
+         </li>
+         <li>
+            <a href="#portfolio" class="active">Portfolio</a>
+         </li>
+         <li>
+            <a href="https://github.com/blue-tabuki" target="_blank">
+               <i class="fa-brands fa-github"></i> Github
+            </a>
+         </li>
+         <li>
+            <a href="#contact">Contact</a>
+         </li>
+      </ul>
+   </header>
+
+   <!-- section hero -->
+   <section id="hero">
+      <img id="stars" src="images/stars.png" />
+      <img id="moon" src="images/moon.png" />
+      <img id="mountains_behind" src="images/mountains_behind.png" />
+      <h2 id="text">road to FULLSTACK</h2>
+      <a href="#portfolio" id="btn">start</a>
+      <img id="mountains_front" src="images/mountains_front.png" />
+   </section>
+
+   <!-- section tbk -->
+   <section id="tbk">
+      <div class="container">
+         <div class="profile-card">
+            <div class="profile-card__name">Yoshun Tabuki</div>
+            <img class="profile-card__image" src="images/tabuki.jpeg" />
+         </div>
+
+         <div class="profile-body">
+            <div class="profile-body__block">
+               <h3 class="heading3">About me</h3>
+               <div class="content">
+                  <p>about me</p>
+                  <p>about me</p>
+                  <p>about me</p>
+               </div>
+            </div>
+   
+            <div class="profile-body__block">
+               <h3 class="heading3">Bio</h3>
+               <div class="content">
+                  <div class="line">
+                     <span class="year">2016/4</span>machine operator
+                  </div>
+                  <div class="line">
+                     <span class="year">2020/12</span>QA tester / QA sub leader / coding 
+                  </div>
+                  <div class="line">
+                     <span class="year">2022/8</span>Learning programming to become a web engineer... <i class="i fa-solid fa-pencil"></i>
+                  </div>
+                  <div class="line">
+                     <span class="year">2022/9</span>SmartPhone•PC repairer
+                  </div>
+               </div>
+            </div>
+   
+            <div class="profile-body__block">
+               <h3 class="heading3">I <i class="fa-solid fa-heart"></i></h3>
+               <div class="content">
+                  art / music / game / cooking / MTB / Onsen / dog / ...etc
+               </div>
+            </div>
+         </div>
+         
+      </div>
+   </section>
+
+   <!-- section portfolio -->
+   <section id="portfolio">
+      <div class="container">
+         <h2>My Portfolio</h2>
+         <hr style="color: #2b1055;">
+
+         <div class="row">
+            <div class="col-md-4">
+               <a href="#" class="card react border border-info border-3 shadow">
+                  <div class="card-header">
+                     React Todo App
+                     <i class="fa-solid fa-table-list"></i>
+                  </div>
+                  <div class="card-body">
+                     <img src="images/react.png" />
+                  </div>
+               </a>
+
+               <div class="description">I created a simple TODO app with React.<br>under development...</div>
+            </div>
+
+            <div class="col-md-4">
+               <a href="#" class="card laravel border border-danger border-3 shadow">
+                  <div class="card-header">
+                     Laravel Simple Memo
+                     <i class="fa-solid fa-book-open"></i>
+                  </div>
+                  <div class="card-body">
+                     <img src="images/laravel.png" />
+                  </div>
+               </a>
+
+               <div class="description">I created a simple Memo app a Laravel<br>under development...</div>
+            </div>
+
+            <div class="col-md-4">
+               <a href="#" class="card laravel border border-danger border-3 shadow">
+                  <div class="card-header">
+                     Laravel Matching App 
+                     <i class="fa-solid fa-heart"></i>
+                  </div>
+                  <div class="card-body">
+                     <img src="images/laravel.png" />
+                  </div>
+               </a>
+
+               <div class="description">I created a simple Matching app with Laravel.<br>New features are still being developed.<br>under development...</div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- section contact -->
+   <section id="contact">
+      <img id="stars" src="images/stars.png" />
+      <img id="mountains_behind" src="images/mountains_behind.png" />
+      <img id="mountains_front" src="images/mountains_front.png" />
+
+      <div class="container">
+         <h2>Contact</h2>
+         <hr style="color: white;">
+
+         <div class="form-wrapper mt-5 shadow-lg">
+            <h3>send an email to tabuki</h3>
+            <form action="https://api.staticforms.xyz/submit" class="mail-form" method="POST">
+               <input type="hidden" name="accessKey" value="2fb180f4-3648-43f8-bbc8-c2653102a4ee">
+
+               <!-- If we receive data in this field submission will be ignored -->
+               <input type="text" name="honeypot" style="display: none;">
+
+               <div class="mx-auto w-50 mb-3">
+                  <label for="name" class="form-label">name</label>
+                  <input type="text" name="name" id="name" class="form-control mb-3" placeholder="your name">
+               </div>
+               <div class="mx-auto w-50 mb-3">
+                  <label for="email" class="form-label">mail adress</label>
+                  <input type="email" name="email" id="email" class="form-control mb-3" placeholder="your email adress">
+               </div>
+               <div class="mx-auto w-50 mb-3">
+                  <label for="content" class="form-label">content</label>
+                  <textarea name="content" id="content" cols="30" rows="5" class="form-control"></textarea>
+               </div>
+               <div class="btn-wrapper">
+                  <button type="submit" id="submit-button" class="btn btn-info" onclick="emailConfirm()">OK</button>
+                  <button type="reset" id="reset-button" class="btn btn-warning">cancel</button>
+               </div>
+            </form>
+         </div>
+      </div>
+
+      <div class="copyright">&copy; tabuki</div>
+   </section>
+
+   <script src="js/main.js"></script>
+</body>
+</html>
